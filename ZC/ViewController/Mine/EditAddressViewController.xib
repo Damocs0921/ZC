@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditAddressViewController">
+            <connections>
+                <outlet property="cityField" destination="rCM-Nv-7GI" id="zLp-O6-lEQ"/>
+                <outlet property="detailField" destination="zeh-vE-2eg" id="mTg-RK-fE3"/>
+                <outlet property="nameField" destination="Frc-7Y-Zdn" id="f04-Ge-6yV"/>
+                <outlet property="phoneField" destination="j9b-oI-i41" id="Wt0-op-uIp"/>
+                <outlet property="provinceField" destination="5yP-8F-SfX" id="eSc-e6-lic"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Frc-7Y-Zdn">
+                    <rect key="frame" x="0.0" y="20" width="320" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="6OI-RW-RPL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j9b-oI-i41">
+                    <rect key="frame" x="0.0" y="74" width="320" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="KRq-l4-aDv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5yP-8F-SfX">
+                    <rect key="frame" x="0.0" y="129" width="320" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="q34-GB-JNQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rCM-Nv-7GI">
+                    <rect key="frame" x="0.0" y="184" width="320" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="hTw-tX-7kp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zeh-vE-2eg">
+                    <rect key="frame" x="0.0" y="237" width="320" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="wk5-3z-Vjm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJ0-Oc-wSW">
+                    <rect key="frame" x="0.0" y="184" width="320" height="40"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showCityPanel:" destination="-1" eventType="touchUpInside" id="pBa-nG-Ejz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDO-75-hrJ">
+                    <rect key="frame" x="0.0" y="129" width="320" height="40"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showCityPanel:" destination="-1" eventType="touchUpInside" id="WcX-5b-avV"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5yP-8F-SfX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="22c-oh-sta"/>
+                <constraint firstAttribute="trailing" secondItem="zeh-vE-2eg" secondAttribute="trailing" id="5yY-uE-e9o"/>
+                <constraint firstAttribute="trailing" secondItem="Frc-7Y-Zdn" secondAttribute="trailing" id="Dg1-0V-IS2"/>
+                <constraint firstItem="zeh-vE-2eg" firstAttribute="top" secondItem="rCM-Nv-7GI" secondAttribute="bottom" constant="13" id="EBs-Qn-d1k"/>
+                <constraint firstItem="5yP-8F-SfX" firstAttribute="height" secondItem="oDO-75-hrJ" secondAttribute="height" id="EeE-Ms-U8h"/>
+                <constraint firstItem="rCM-Nv-7GI" firstAttribute="centerY" secondItem="TJ0-Oc-wSW" secondAttribute="centerY" id="G8u-BS-K4M"/>
+                <constraint firstItem="5yP-8F-SfX" firstAttribute="centerX" secondItem="oDO-75-hrJ" secondAttribute="centerX" id="HM6-Ss-VwM"/>
+                <constraint firstItem="rCM-Nv-7GI" firstAttribute="width" secondItem="TJ0-Oc-wSW" secondAttribute="width" id="Hps-8m-6rj"/>
+                <constraint firstAttribute="trailing" secondItem="j9b-oI-i41" secondAttribute="trailing" id="JOr-cX-zWz"/>
+                <constraint firstItem="5yP-8F-SfX" firstAttribute="width" secondItem="oDO-75-hrJ" secondAttribute="width" id="K2E-pB-0xD"/>
+                <constraint firstItem="5yP-8F-SfX" firstAttribute="top" secondItem="j9b-oI-i41" secondAttribute="bottom" constant="15" id="RcA-fM-ADW"/>
+                <constraint firstItem="j9b-oI-i41" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="SSz-Yq-KkY"/>
+                <constraint firstItem="rCM-Nv-7GI" firstAttribute="top" secondItem="5yP-8F-SfX" secondAttribute="bottom" constant="15" id="U4H-oq-ZPy"/>
+                <constraint firstItem="zeh-vE-2eg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="eR8-Kd-O4P"/>
+                <constraint firstItem="j9b-oI-i41" firstAttribute="top" secondItem="Frc-7Y-Zdn" secondAttribute="bottom" constant="14" id="erX-Ns-kkh"/>
+                <constraint firstItem="rCM-Nv-7GI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hUc-R0-EbM"/>
+                <constraint firstAttribute="trailing" secondItem="rCM-Nv-7GI" secondAttribute="trailing" id="iE5-ao-rKf"/>
+                <constraint firstItem="rCM-Nv-7GI" firstAttribute="height" secondItem="TJ0-Oc-wSW" secondAttribute="height" id="lzI-Hq-ilP"/>
+                <constraint firstItem="rCM-Nv-7GI" firstAttribute="centerX" secondItem="TJ0-Oc-wSW" secondAttribute="centerX" id="pAz-bE-XFn"/>
+                <constraint firstItem="Frc-7Y-Zdn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="sLa-09-SRi"/>
+                <constraint firstItem="Frc-7Y-Zdn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="uqE-Wj-aG8"/>
+                <constraint firstAttribute="trailing" secondItem="5yP-8F-SfX" secondAttribute="trailing" id="wfE-a2-BZj"/>
+                <constraint firstItem="5yP-8F-SfX" firstAttribute="centerY" secondItem="oDO-75-hrJ" secondAttribute="centerY" id="ydB-5U-Ybb"/>
+            </constraints>
+            <point key="canvasLocation" x="231" y="210"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
