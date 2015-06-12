@@ -1,0 +1,95 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BeeCloud (2.5)
+  - BeeCloud_aliPay (2.5)
+  - BmobSDK (1.5.7.1)
+  - CocoaAsyncSocket (7.4.1)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - JSQSystemSoundPlayer (4.0.0)
+  - Masonry (0.6.1)
+  - MJExtension (2.3.1)
+  - MJRefresh (1.4.7)
+  - Reachability (3.2)
+  - RZCellSizeManager (1.1.2):
+    - RZCellSizeManager/Core (= 1.1.2)
+  - RZCellSizeManager/Core (1.1.2)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - Toast (2.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.2)
+  - BeeCloud (from `https://github.com/beecloud/ios-sdk-cocoapods-release.git`, branch
+    `core`)
+  - BeeCloud_aliPay (from `https://github.com/beecloud/ios-sdk-cocoapods-release.git`,
+    branch `aliPay`)
+  - BmobSDK
+  - CocoaAsyncSocket (~> 7.4.1)
+  - FMDB
+  - JSQSystemSoundPlayer
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - Reachability
+  - RZCellSizeManager (~> 1.1)
+  - SDWebImage
+  - Toast
+
+EXTERNAL SOURCES:
+  BeeCloud:
+    :branch: core
+    :git: https://github.com/beecloud/ios-sdk-cocoapods-release.git
+  BeeCloud_aliPay:
+    :branch: aliPay
+    :git: https://github.com/beecloud/ios-sdk-cocoapods-release.git
+
+CHECKOUT OPTIONS:
+  BeeCloud:
+    :commit: e6f291cb0b5a7305b2be58a8edd534fb05e4088e
+    :git: https://github.com/beecloud/ios-sdk-cocoapods-release.git
+  BeeCloud_aliPay:
+    :commit: 304a6857ee0039e8986e07132af0cc132218fd06
+    :git: https://github.com/beecloud/ios-sdk-cocoapods-release.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  BeeCloud: 171686dc1bc1d915ef782dcb43485d87c327f56b
+  BeeCloud_aliPay: d48243cf222d70173f9621fd816c987791f47eee
+  BmobSDK: 5109108be99fc665fbfa64d124b4d3c049273445
+  CocoaAsyncSocket: 7cbf214b27f8e7f7574db6a3fd96352ffaed433d
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  JSQSystemSoundPlayer: a367c3eba71068e304ef37e5fd6355fb4cd2a258
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
+  MJExtension: c7e345f6c2e016e547ea9cd9ea486995cfed9bc6
+  MJRefresh: 6b140993028fa30f1fcb88e82925a7c7911415cf
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RZCellSizeManager: 04bd83953cb5a427ae3d9e430045a15ee4789699
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
+
+COCOAPODS: 0.37.1
