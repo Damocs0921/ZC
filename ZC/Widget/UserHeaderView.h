@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UserHeaderView.h
 //  ZC
 //
 //  Created by DamocsYang on 6/7/15.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "UserDto.h"
 
+@interface UserHeaderView : UIView
+
+-(void)setUserData:(UserDto*)data;
 
 @end
-

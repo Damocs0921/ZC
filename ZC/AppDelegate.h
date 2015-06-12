@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+#import "ZCRootViewController.h"
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, nonatomic) ZCRootViewController* rootViewController;
 
 @end
 
